@@ -1,0 +1,197 @@
+:root {
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+body{
+    height: 100vh;
+    max-width: 100vw;
+}
+
+/* Estilos para NAVBAR */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: #f5e1ce;
+}
+
+#logo_Ce{
+    width: 100px;
+    top: 20;
+    position: relative;
+}
+
+#cart{
+    width: 70px;
+}
+
+.cantidad_items{
+    background-color: #f9ac8b;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+}
+
+#texto_logo{
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 1px 2px rgba(0,0,0,0.6);
+    color: #f9ac8b;
+    margin: 40px 40px 20px 20px;
+}
+
+.btns button{
+    font-size: 20px;
+    font-weight: bold;
+    color: #f9ac8b;
+}
+
+.btns button:hover{
+    color: #fd8e5e;
+    text-decoration: none;
+}
+
+
+.items_cantidad{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* Estilos para page WELCOME */
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.tituloWelc{
+    font-size: 80px;
+    color: #f9ac8b;
+    margin: 20px 50px;
+}
+
+.imagWelc{
+    margin: 10px;
+}
+
+/* Estilos para card */
+
+.card-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botones_navbar{
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 150px 0 60px;    
+    width: 100vh;
+}
+
+
+/* Estilos para Cart */
+
+.form_cart{
+    border: solid #f9ac8b;
+    border-radius: 10px;
+    width: 50%;
+    padding: 15px;
+}
+
+.cart_{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    gap: 50px;
+}
+
+
+.cart_ h2{
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.form_cart label{
+    margin: 5px 0;
+}
+
+/* Estilos para footer */
+
+.footer{
+    background-color:#f5e1ce;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: #f9ac8b;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+
+.footer .networks i{
+    padding: 10px;
+    font-size: 30px;
+}
+
+#foot_tit{
+    text-shadow: 2px 1px 2px rgba(0,0,0,0.6);
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.footer .quienesSom {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.footer .contact{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.footer h3{
+    color: black;
+}
+
+/* Estilos para contacto */
+
+.contact_box{
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.contact_box .text_area{
+    background-color: #fff;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    color: black;
+}
+
+.contact_box #title{
+    font-size: 50px;
+    font-weight: 700;
+}

@@ -1,0 +1,7 @@
+[
+    {"id": 1, "name": "Tazas", "description": "Taza amarilla personaje", "description_short": "Taza amarilla con carita", "price":2100, "stock": 3, "category": "Tazas", "image": "../src/assets/imgTaza.jpg"},
+    {"id": 2, "name": "Mates", "description": "Mate zorrito", "description_short": "Mate de animales", "price":1800, "stock": 9, "category": "Mates", "image": "../src/assets/imgMate.png"},
+    {"id": 3, "name": "Especieros", "description": "Para condimentos", "description_short": "Especiero para condimentos", "price":1500, "stock": 11, "category": "Especieros", "image": "../src/assets/imgSalp.jpg"},
+    {"id": 4, "name": "Macetas", "description": "Macetas de animales", "description_short": "Macetas con personajes","price":2600, "stock": 2, "category": "Macetas", "image": "../src/assets/imgMaceta.png"}
+]
+
