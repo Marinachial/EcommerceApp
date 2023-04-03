@@ -3,4 +3,8 @@
 - - - 
 
 #### Ecommerce realizado con React + Vite.
+<<<<<<< HEAD
 ##### 
+=======
+##### Segunda pre entrega
+
