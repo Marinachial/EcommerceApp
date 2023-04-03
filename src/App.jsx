@@ -8,11 +8,13 @@ import Welcome from "./components/Welcome";
 import Cart from "./components/Cart";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import ShoppingCartProvider from "./Context/ShoppingCartContext";
 
 const App = () => {
   return (
     <>
       <ChakraProvider>
+      <ShoppingCartProvider>
         <BrowserRouter>
           <NavBar />
           <Routes>
@@ -29,6 +31,7 @@ const App = () => {
           </Routes>
           <Footer />
         </BrowserRouter>
+        </ShoppingCartProvider>
       </ChakraProvider>
     </>
   );

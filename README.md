@@ -1,6 +1,6 @@
-# Mi tienda online
+# Mi tienda online: Turu Cerámica
 
 - - - 
 
 #### Ecommerce realizado con React + Vite.
-##### Segunda pre entrega
+##### 

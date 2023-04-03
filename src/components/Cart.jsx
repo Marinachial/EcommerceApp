@@ -2,8 +2,15 @@ import { Link } from "react-router-dom";
 import FormCart from "./FormCart"
 import { Button } from "@chakra-ui/react";
 
+import { useContext } from "react";
+import { CartContext } from "../Context/ShoppingCartContext";
+
+// import Brief from "./Brief";
+
 const Cart = () => {
-  let cart = "";
+  // let cart = "";
+
+  const { cart } = useContext(CartContext);
   
   if (cart === "abc") {
     return (

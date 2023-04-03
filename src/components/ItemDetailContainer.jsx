@@ -1,8 +1,8 @@
-import Data from "../data.json";
+ import Data from "../data.json";
 import ItemDetail from "./ItemDetail";
 
 
-const ItemDetailContainer = () => {
+ const ItemDetailContainer = () => {
   
     return (
         <>
@@ -11,4 +11,4 @@ const ItemDetailContainer = () => {
   );
 };
 
-export default ItemDetailContainer
+export default ItemDetailContainer 
